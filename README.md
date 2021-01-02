@@ -1,4 +1,4 @@
-# Simple Calculatpor
+# Simple Calculator
 
 ## Technologies  Used 
 - HTML 
