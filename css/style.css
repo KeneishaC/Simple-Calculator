@@ -8,8 +8,69 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     min-height: 100vh;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 12px;
+    height: 700px;
+    width: 350px;
+    background-color: black;
+}
+
+main input { 
+    width: 100%;
+    height: 150px;
+    font-size: 100px;
+    font-weight: 700;
+    background-color: grey;
+    color: white;
+    border: 10px solid black;
+    text-align: right;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height:100%;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: rgba(165, 121, 9, 0.892);
+    margin: 3px;
+    color: wheat;
+}
+
 .outline {
     border: 1px dotted red;
+}
+
+#clear {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(165, 121, 9, 0.892);
+    color: wheat;
+    border-radius: 12px;  
+    font-size: 65px;
+}
+
+.button:hover, #clear.hover {
+    background-color:  rgba(165, 121, 9, 0.509);
 }
